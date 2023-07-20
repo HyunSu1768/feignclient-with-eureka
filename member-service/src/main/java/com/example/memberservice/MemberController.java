@@ -1,4 +1,4 @@
-package me.sup2is.memberservice;
+package com.example.memberservice;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

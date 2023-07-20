@@ -1,2 +1,5 @@
 rootProject.name = 'feignclient-with-eureka'
+include 'eureka'
+include 'member-service'
+include 'order-service'
 

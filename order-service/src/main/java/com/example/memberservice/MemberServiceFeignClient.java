@@ -1,14 +1,13 @@
-package me.sup2is.memberservice;
+package com.example.memberservice;
 
-        import org.springframework.cloud.openfeign.FeignClient;
-        import org.springframework.web.bind.annotation.GetMapping;
-        import org.springframework.web.bind.annotation.PathVariable;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @FeignClient("memberservice")
 public interface MemberServiceFeignClient {
 
-    @GetMapping(value = "/member",
-            consumes = "application/json")
+    @GetMapping(value = "/member", consumes = "application/json")
     Member getMember();
 
 }

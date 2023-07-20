@@ -1,4 +1,4 @@
-package me.sup2is.memberservice;
+package com.example.memberservice;
 
 import lombok.Data;
 
